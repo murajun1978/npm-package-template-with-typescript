@@ -1,5 +1,5 @@
 {
-  "name": "@murajun1978/npm-package-with-typescript",
+  "name": "@murajun1978/npm-package-template-with-typescript",
   "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
