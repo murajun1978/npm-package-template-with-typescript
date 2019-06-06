@@ -1,7 +1,14 @@
-# NPM Package template with TypeScript
-- [TypeScript](https://github.com/microsoft/TypeScript)
-- [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint)
-- [Prettier](https://github.com/prettier/prettier)
-- [Jest](https://github.com/facebook/jest)
-- [husky](https://github.com/typicode/husky)
-- [lint-staged](https://github.com/okonet/lint-staged)
+# Package name
+> Package description
+
+## Requirement
+TODO: Write requirements if there are
+
+## Install
+TODO: Write installation methods
+
+## Usage
+TODO: Write usage
+
+## Licence
+[MIT licence](./LICENSE)
