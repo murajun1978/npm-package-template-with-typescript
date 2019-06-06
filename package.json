@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": ["lib"],
   "scripts": {
     "test": "jest",
     "test:watch": "npm test -- --watch",
