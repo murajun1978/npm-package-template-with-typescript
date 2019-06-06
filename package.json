@@ -6,12 +6,19 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint --max-warnings 0 --ext .js,.ts ."
   },
   "keywords": [],
   "author": "murajun1978",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.17.1",
     "typescript": "^3.5.1"
   }
 }
