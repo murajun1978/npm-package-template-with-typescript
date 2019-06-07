@@ -10,3 +10,6 @@ node_modules/
 
 # Compile directory
 lib/
+
+# Rollup cache directory
+.rpt2_cache/

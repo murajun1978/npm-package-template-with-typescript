@@ -2,13 +2,17 @@
   "name": "@murajun1978/npm-package-template-with-typescript",
   "version": "0.1.0",
   "description": "",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "files": ["lib"],
+  "main": "dist/lib/index.js",
+  "module": "dist/lib/index.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "build": "tsc",
+    "build": "rollup -c",
+    "build:watch": "rollup -cw",
     "lint": "eslint --max-warnings 0 --ext .js,.ts ."
   },
   "keywords": [],
@@ -26,6 +30,8 @@
     "jest": "^24.8.0",
     "lint-staged": "^8.2.0",
     "prettier": "^1.18.0",
+    "rollup": "^1.14.4",
+    "rollup-plugin-typescript2": "^0.21.1",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.1"
   }
