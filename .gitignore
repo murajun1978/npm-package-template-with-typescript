@@ -9,7 +9,7 @@ yarn-error.log*
 node_modules/
 
 # Compile directory
-lib/
+dist/
 
 # Rollup cache directory
 .rpt2_cache/
